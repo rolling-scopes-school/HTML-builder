@@ -9,40 +9,42 @@
 }
 
 .mauto {
-  margin:auto;
+  margin: auto;
 }
 
-.bg-svg{
+.bg-svg {
   background-image: url(bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
   position: relative;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
-body{
+body {
   background-color: #fafafa;
 }
 
-#Leaf1
-{
-  -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-        animation: shake-bottom 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-          transform-box: fill-box;
-          }
-
-
-#leaf11
-{
-  -webkit-animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-        animation: shake-bottom 2.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-          transform-box: fill-box; 
+#Leaf1 {
+  -webkit-animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-bottom 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    both;
+  transform-box: fill-box;
 }
 
-#leaf10
-{
-  -webkit-animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-        animation: shake-bottom 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-          transform-box: fill-box; 
+#leaf11 {
+  -webkit-animation: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-bottom 2.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    both;
+  transform-box: fill-box;
+}
+
+#leaf10 {
+  -webkit-animation: shake-bottom 3s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    infinite both;
+  animation: shake-bottom 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite
+    both;
+  transform-box: fill-box;
 }
