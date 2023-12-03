@@ -5,7 +5,7 @@ In the file `index.js` within the directory `01-read-file`, write a script that 
 ### General Rules
 
 - The use of any third-party modules is prohibited.
-- Each task should be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
 - The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
 
 ### Requirements
@@ -15,7 +15,7 @@ In the file `index.js` within the directory `01-read-file`, write a script that 
 - [ ] Synchronous file reading methods should not be used in the code.
 - [ ] File reading should occur using **ReadStream**.
 
-### Goals
+### Objectives
 
 - Get acquainted with the basics of working with the file system on the Node.js platform.
 - Learn the basics of streams and events.

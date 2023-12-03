@@ -1,48 +1,52 @@
-## Запись консольного ввода в файл
+## Writing Console Input to File
 
-В файле **index.js** директории **02-write-file** напишите скрипт выводящий в консоль приветствие, ожидающий ввод текста, и записывающий введённый текст в файл.
+In the `index.js` file in the `02-write-file directory`, write a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
 
-### Общие правила:
+### General Rules
 
-- Запрещается использование любых сторонних модулей
-- Каждое из заданий должно запускаться командой node <имя папки задания> выполненной в корневой директории
-- Запрещается использование синхронных функций модуля fs такие как `fs.statSync(path[, options])`,
-  `fs.readFileSync(path[, options])` и другие находящиеся в разделе [synchronous API](https://nodejs.org/api/fs.html#fs_synchronous_api)
+- The use of any third-party modules is prohibited.
+- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
 
-### Требования
+### Requirements
 
-- [ ] Внутри папки 02-write-file находится 1 файл **index.js**
-- [ ] При выполнении команды `node 02-write-file` в папке `02-write-file` создаётся текстовый файл, а в консоль выводится приглашение на ввод текста(На ваш выбор)
-- [ ] После ввода текста в каталоге `02-write-file` введённый текст должен быть записан в созданный ранее файл. Процесс не завершается и ждёт нового ввода.
-- [ ] После следующего ввода созданный изначально текстовый файл дополняется новым текстом, процесс продолжает ждать ввод.
-- [ ] При нажатии сочетания клавиш `ctrl + c` или вводе `exit` в консоль выводится прощальная фраза и процесс завершается.
+- [ ] Inside the `02-write-file folder`, there is 1 file `index.js`.
+- [ ] When executing the command `node 02-write-file` <u>in the root directory of the repository</u>, a text file is created in the `02-write-file` folder, and a prompt for text input is displayed in the console (the text of prompt is of your choice).
+- [ ] After entering text, the entered text should be written to the previously created file in the `02-write-file directory`. The process does not terminate and awaits new input.
+- [ ] After the next input, the initially created text file is appended with new text, and the process continues to wait for input.
+- [ ] When pressing the `ctrl + c` key combination or entering `exit` into the console, a farewell phrase is displayed (the text of farewell phrase is of your choice), and the process terminates.
 
-### Цели задания
+### Objectives
 
-- Укрепить понимание основ работы событий и потоков в Node.js
-- Работа с глобальным объектом process
+- Strengthen understanding of the basics of working with events and streams in Node.js.
+- Work with the global **process** object.
 
-### Описание
+### Description
 
-В данном задании вам предстоит написать программу считывающую ваш консольный ввод до момента принудительного завершения процесса `ctrl + c` или ввода ключевого слова **exit**. Порядок действий для выполнения задачи:
+In this task, you will write a program that reads your console input until the process is forcibly terminated with `ctrl + c` or the keyword `exit` is entered.
 
-1. Импорт всех требуемых модулей.
-2. Создание потока записи в текстовый файл
-3. Вывод в консоль приветственного сообщения
-4. Ожидание ввода текста пользователем, с дальнейшей проверкой ввода на наличие ключевого слова **exit**
-5. Запись текста в файл
-6. Ожидание дальнейшего ввода
-7. Реализация прощального сообщения при остановке процесса
+The steps to complete the task are as follows:
 
-### Советы
+1. Import all required modules.
+2. Create a writable stream to a text file.
+3. Display a welcome message in the console.
+4. Wait for user input, with subsequent checking for the presence of the keyword `exit`.
+5. Write the entered text to the file.
+6. Wait for further input.
+7. Implement a farewell message when the process is stopped.
 
-Для успешного выполнения данного таска вам понадобятся знания о событиях и потоках приобретённые ранее, а так же следует изучить возможности глобального объекта process. Используя его события вы сможете, в том числе и перехватывать сигналы посылаемые процессу, например при нажатии `ctrl + c`.
+### Tips
 
-Читать что-либо из потока(stream) по строке за раз вам может помочь модуль Readline. Стандартный поток ввода stdin являясь ReadbleStream отлично подходит для этого.
+To successfully complete this task, you will need knowledge of events and streams acquired earlier, as well as an understanding of the capabilities of the global **process** object. By using its events, you can intercept signals sent to the process, such as pressing `ctrl + c`.
 
-##### Полезные ссылки
+Reading anything from a stream using the **Readline module** can be helpful. The standard input stream `stdin`, being a **ReadableStream**, is well-suited for this.
 
-_Обратите внимание, что переводы документации на русский язык могут быть устаревшими и не содержать всех современных возможностей модулей. Однако, основные концепции описанные там работают и по сей день. Для получения актуальной информации всегда используйте официальную документацию!_
+##### Useful Links
+
+_If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
+For up-to-date information, always use the official documentation!_
+
+// TODO: update links
 
 - Process:
   - [Process](https://nodejs.org/api/process.html)
