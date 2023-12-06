@@ -2,42 +2,43 @@
 
 ---
 
-### Цели:
+### Objectives:
 
-В данной серии заданий основной целью является понимание основ работы с платформой Node.js.  
-Вам предлагается выполнить ряд небольших задач с постепенным возрастанием сложности. Финальным штрихом станет создание небольшого приложения по сборке статического сайта.
+The main goal of this series of tasks is to understand the basics of working with the **Node.js** platform.
+You are offered to complete a series of small tasks with a gradual increase in complexity. The final touch will be the creation of a small application for building a static website.
 
-Обратите внимание, что большинство задач можно выполнить несколькими способами и на данном этапе неправильных среди них нет. Оценивается только работоспособность вашего кода и выполнение поставленных условий.
+Please note that most tasks can be accomplished in multiple ways, and at this stage, there are no incorrect approaches. Only the functionality of your code and adherence to the specified conditions will be evaluated.
 
 ---
 
-## Процесс выполнения:
+## Execution process
 
-- Сделайте форк репозитория
-- Отправьте ссылку на репозиторий в crosscheck-submit
-- Клонируйте репозиторий
-- Выполните команду `npm install` для установки eslint и тайпингов node.js которые помогут вам при выполнении заданий
-- Выполните задания. ТЗ для каждого из них находится в файле README.md внутри папки задания
-- Запушьте решение в свой форк репозитория
+- Fork this repository
+- Send the repository link to `Cross-Check: Submit` in RS App
+- Clone the repository
+- Run the command `npm install` to install eslint, prettier and node.js typings that will assist you in completing the tasks
+- Complete the tasks. The specifications for each task are in the `README.md` file inside the task folder
+- Push the solution to your forked repository
 
 ## Crosscheck
 
 Ход выполнения проверки описан в вики репозитория. После старта cross-check перейдите по [данной ссылке](https://github.com/EvgeniiMal/HTML-builder/wiki/HTML-builder-crosscheck) и следуйте инструкции на главной странице.
 
-## Общие правила!!!:
+The process of cross-checking is described in the repository's wiki. After starting the cross-check, follow this link and follow the instructions on the main page.
 
-- При решении задач запрещается использование любых сторонних модулей
-- Каждое из заданий должно запускаться командой node <имя папки задания> выполненной в корневой директории
-- Запрещается использование синхронных функций модуля fs такие как `fs.statSync(path[, options])`,
-  `fs.readFileSync(path[, options])` и другие находящиеся в разделе [synchronous API](https://nodejs.org/api/fs.html#fs_synchronous_api)
-- Запрещается использование таймера setTimeout()
-- Выполнение и проверка таска должны проводиться на node LTS версии .
+### General Rules
 
-## Оглавление
+- The use of any third-party modules is prohibited.
+- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
+- It is forbidden to use the `setTimeout()` timer.
+- Task execution and verification should be carried out on the **LTS** version of Node.
 
-[01 Чтение файла с выводом содержимого в консоль](https://github.com/EvgeniiMal/HTML-builder/tree/main/01-read-file)  
-[02 Запись консольного ввода в файл](https://github.com/EvgeniiMal/HTML-builder/blob/main/02-write-file)  
-[03 Вывод информации о файлаx хранящихся в папке](https://github.com/EvgeniiMal/HTML-builder/blob/main/03-files-in-folder)  
-[04 Копирование папки](https://github.com/EvgeniiMal/HTML-builder/tree/main/04-copy-directory)  
-[05 Сборка css бандла](https://github.com/EvgeniiMal/HTML-builder/blob/main/05-merge-styles)  
-[06 Сборка HTML страницы из компонентов и стилей](https://github.com/EvgeniiMal/HTML-builder/tree/main/06-build-page)
+## Table of Contents
+
+[01 Reading a File with Console Output](https://github.com/EvgeniiMal/HTML-builder/tree/main/01-read-file)  
+[02 Writing Console Input to File](https://github.com/EvgeniiMal/HTML-builder/blob/main/02-write-file)  
+[03 Displaying Information about Files Stored in a Folder](https://github.com/EvgeniiMal/HTML-builder/blob/main/03-files-in-folder)  
+[04 Copying a Directory](https://github.com/EvgeniiMal/HTML-builder/tree/main/04-copy-directory)  
+[05 Building the CSS Bundle](https://github.com/EvgeniiMal/HTML-builder/blob/main/05-merge-styles)  
+[06 Building an HTML Page from Components and Styles](https://github.com/EvgeniiMal/HTML-builder/tree/main/06-build-page)
