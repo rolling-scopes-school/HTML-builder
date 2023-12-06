@@ -68,6 +68,7 @@ For up-to-date information, always use the official documentation!_
   - [Stream](https://nodejs.org/api/stream.html)
   - [fs.createReadStream](https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
   - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs/)
+  - [Node.js Streams: Everything you need to know](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
 - Path:
   - [Path](https://nodejs.org/api/path.html)
   - [Node.js Path Module](https://www.javascripttutorial.net/nodejs-tutorial/nodejs-path-module/)

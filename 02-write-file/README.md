@@ -46,29 +46,24 @@ Reading anything from a stream using the **Readline module** can be helpful. The
 _If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
 For up-to-date information, always use the official documentation!_
 
-// TODO: update links
-
 - Process:
   - [Process](https://nodejs.org/api/process.html)
-  - [Process перевод на русском (nodejsdev.ru)](https://nodejsdev.ru/api/process/)
+  - [Node Process Object Explained](https://www.freecodecamp.org/news/node-process-object-explained/)
   - [Signal events](https://nodejs.org/api/process.html#process_signal_events)
-  - [Сигнальные события (nodejsdev.ru)](https://nodejsdev.ru/api/process/#signal-events)
+  - [Node.js Process Signal Events](https://www.geeksforgeeks.org/node-js-process-signal-events/)
 - Readline:
   - [Readline](https://nodejs.org/api/readline.html)
-  - [Readline на русском (nodejsdev.ru)](https://nodejsdev.ru/api/readline/)
-- События:
-  - [События от Metanit](https://metanit.com/web/nodejs/2.9.php)
-  - [Understanding Node.js Event-Driven Architecture (FreeCodeCamp)](https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/)
-  - [Event emitter](https://nodejs.dev/learn/the-nodejs-event-emitter)
-  - [Перевод документации Events (nodejsdev.ru)](https://nodejsdev.ru/api/events/)
-  - [События гайд (nodejsdev.ru)](https://nodejsdev.ru/guide/events/)
-- Потоки:
+  - [Node.js Readline() Module](https://www.geeksforgeeks.org/node-js-readline-module/)
+- Events:
+  - [Understanding Node.js Event-Driven Architecture](https://www.freecodecamp.org/news/understanding-node-js-event-driven-architecture-223292fcbc2d/)
+  - [The Node.js Event emitter](https://nodejs.org/en/learn/asynchronous-work/the-nodejs-event-emitter)
+  - [Events](https://nodejs.org/api/events.html)
+  - [Events in Node.js](https://medium.com/@diego.coder/events-in-node-js-76fbe1b6cdad)
+- Streams:
   - [Stream](https://nodejs.org/api/stream.html)
   - [fs.createReadStream](https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options)
-  - [Потоки (nodejsdev.ru)](https://nodejsdev.ru/api/stream/)
-  - [Pipe (nodejsdev.ru)](https://nodejsdev.ru/guide/pipe/)
-  - [Stream от Metanit](https://metanit.com/web/nodejs/2.10.php)
-  - [Pipe от Metanit](https://metanit.com/web/nodejs/2.11.php)
-- Модуль Path:
+  - [Understanding Streams in Node.js](https://nodesource.com/blog/understanding-streams-in-nodejs/)
+  - [Node.js Streams: Everything you need to know](https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93/)
+- Path Module:
   - [Path](https://nodejs.org/api/path.html)
-  - [Path перевод на русский](https://nodejsdev.ru/api/path/)
+  - [Node.js Path Module](https://www.javascripttutorial.net/nodejs-tutorial/nodejs-path-module/)
