@@ -43,8 +43,6 @@ You can see the full list of data returned by this function in the documentation
 _If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
 For up-to-date information, always use the official documentation!_
 
-// TODO: update links
-
-- [stat на русском (nodejsdev.ru)](https://nodejsdev.ru/api/fs/#fsstat)
-- [readdir на русском (nodejsdev.ru)](https://nodejsdev.ru/api/fs/#fsreaddir)
-- [Stats на русском (nodejsdev.ru)](https://nodejsdev.ru/api/fs/#fsstats)
+- [Node.js file stats](https://nodejs.org/en/learn/manipulating-files/nodejs-file-stats)
+- [Node.js fs.readdir() Method](https://www.geeksforgeeks.org/node-js-fs-readdir-method/)
+- [Working with folders in Node.js](https://nodejs.org/en/learn/manipulating-files/working-with-folders-in-nodejs)
