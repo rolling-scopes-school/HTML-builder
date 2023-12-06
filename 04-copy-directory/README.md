@@ -33,7 +33,7 @@ Pay attention to the `recursive` option that can be passed to `fsPromises/mkdir`
 
 ##### Useful Links
 
-// TODO: update links
-
 - [copyFile](https://nodejs.org/api/fs.html#fs_fspromises_copyfile_src_dest_mode)
+- [fs.copyFile() Function](https://www.geeksforgeeks.org/node-js-fs-copyfile-function/)
 - [mkdir](https://nodejs.org/api/fs.html#fs_fspromises_mkdir_path_options)
+- [fs.mkdir() Method](https://www.geeksforgeeks.org/node-js-fs-mkdir-method/)
