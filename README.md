@@ -22,9 +22,8 @@ Please note that most tasks can be accomplished in multiple ways, and at this st
 
 ## Crosscheck
 
-Ход выполнения проверки описан в вики репозитория. После старта cross-check перейдите по [данной ссылке](https://github.com/EvgeniiMal/HTML-builder/wiki/HTML-builder-crosscheck) и следуйте инструкции на главной странице.
-
-The process of cross-checking is described in the repository's wiki. After starting the cross-check, follow this link and follow the instructions on the main page.
+The process of cross-checking is described in the repository's wiki.  
+After starting the cross-check, follow [this link](https://github.com/rolling-scopes-school/HTML-builder/wiki/HTML-builder-crosscheck) and follow the instructions on the page.
 
 ### General Rules
 
