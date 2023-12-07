@@ -23,7 +23,7 @@ Please note that most tasks can be accomplished in multiple ways, and at this st
 ## Crosscheck
 
 The process of cross-checking is described in the repository's wiki.  
-After starting the cross-check, follow [this link](https://github.com/rolling-scopes-school/HTML-builder/wiki/HTML-builder-crosscheck) and follow the instructions on the page.
+After starting the cross-check, follow [this link](https://github.com/rolling-scopes-school/HTML-builder/wiki) and follow the instructions on the page.
 
 ### General Rules
 
