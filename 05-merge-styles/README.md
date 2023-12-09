@@ -1,6 +1,6 @@
 ## Building the CSS Bundle
 
-In the `index.js` file of the `05-merge-styles` directory, write a script that compiles the contents of the `styles` folder into a single file. The output file should be named `bundle.css` and located inside the `project-dist` folder.
+In the `index.js` file of the `05-merge-styles` directory, develop a script that compiles the contents of the `styles` folder into a single file. The output file should be named `bundle.css` and located inside the `project-dist` folder.
 
 ### Requirements
 

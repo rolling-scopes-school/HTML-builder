@@ -1,6 +1,6 @@
 ## Writing Console Input to File
 
-In the `index.js` file in the `02-write-file directory`, write a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
+In the `index.js` file in the `02-write-file directory`, develop a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
 
 ### General Rules
 
@@ -23,7 +23,7 @@ In the `index.js` file in the `02-write-file directory`, write a script that out
 
 ### Description
 
-In this task, you will write a program that reads your console input until the process is forcibly terminated with `ctrl + c` or the keyword `exit` is entered.
+In this task, you will develop a program that reads your console input until the process is forcibly terminated with `ctrl + c` or the keyword `exit` is entered.
 
 The steps to complete the task are as follows:
 

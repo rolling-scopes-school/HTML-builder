@@ -1,6 +1,6 @@
 ## Displaying Information about Files Stored in a Folder
 
-In the `index.js` file of the `03-files-in-folder` directory, write a script that outputs information about files contained in the `secret-folder` to the console.
+In the `index.js` file of the `03-files-in-folder` directory, develop a script that outputs information about files contained in the `secret-folder` to the console.
 
 ### Requirements
 

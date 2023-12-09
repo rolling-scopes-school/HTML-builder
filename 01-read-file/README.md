@@ -1,6 +1,6 @@
 ## Reading a File with Console Output
 
-In the file `index.js` within the directory `01-read-file`, write a script that outputs the contents of the file `text.txt` to the console.
+In the file `index.js` within the directory `01-read-file`, develop a script that outputs the contents of the file `text.txt` to the console.
 
 ### General Rules
 
@@ -23,7 +23,7 @@ In the file `index.js` within the directory `01-read-file`, write a script that 
 
 ### Description
 
-In this task, you are required to write a small script that outputs the contents of a pre-prepared text file to the console. You can follow these steps:
+In this task, you are required to develop a small script that outputs the contents of a pre-prepared text file to the console. You can follow these steps:
 
 1. Import the necessary modules for task execution:
 

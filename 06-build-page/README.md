@@ -1,6 +1,6 @@
 ## Building an HTML Page from Components and Styles
 
-In the `index.js` file within the `06-build-page` directory, write a script that:
+In the `index.js` file within the `06-build-page` directory, develop a script that:
 
 1. Creates a folder named `project-dist`.
 2. Replaces template tags in the `template.html` file with filenames from the `components` folder (e.g., `{{section}}`) and saves the result in `project-dist/index.html`.
