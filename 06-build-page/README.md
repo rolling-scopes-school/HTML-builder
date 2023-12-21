@@ -17,7 +17,7 @@ In the `index.js` file within the `06-build-page` directory, develop a script th
 
 - [ ] After the script execution terminates, the `project-dist` folder should be created.
 - [ ] The `project-dist` folder should contain files `index.html` and `style.css`.
-- [ ] The `project-dist` folder should contain an assets folder that is an exact copy of the assets folder in 06-build-page.
+- [ ] The `project-dist` folder should contain an `assets` folder that is an exact copy of the `assets` folder in `06-build-page`.
 - [ ] The use of `fsPromises.cp()` is prohibited.
 - [ ] The `index.html` file should contain markup resulting from the replacement of template tags in the `template.html` file.
 - [ ] The `style.css` file should contain styles compiled from files in the `styles` folder.

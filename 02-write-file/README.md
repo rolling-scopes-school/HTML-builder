@@ -1,6 +1,6 @@
 ## Writing Console Input to File
 
-In the `index.js` file in the `02-write-file directory`, develop a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
+In the `index.js` file in the `02-write-file` directory, develop a script that outputs a greeting to the console, waits for text input, and writes the entered text to a file.
 
 ### General Rules
 
@@ -10,9 +10,9 @@ In the `index.js` file in the `02-write-file directory`, develop a script that o
 
 ### Requirements
 
-- [ ] Inside the `02-write-file folder`, there is 1 file `index.js`.
+- [ ] Inside the `02-write-file` folder, there is 1 file `index.js`.
 - [ ] When executing the command `node 02-write-file` <u>in the root directory of the repository</u>, a text file is created in the `02-write-file` folder, and a prompt for text input is displayed in the console (the text of prompt is of your choice).
-- [ ] After entering text, the entered text should be written to the previously created file in the `02-write-file directory`. The process does not terminate and awaits new input.
+- [ ] After entering text, the entered text should be written to the previously created file in the `02-write-file` directory. The process does not terminate and awaits new input.
 - [ ] After the next input, the initially created text file is appended with new text, and the process continues to wait for input.
 - [ ] When pressing the `ctrl + c` key combination or entering `exit` into the console, a farewell phrase is displayed (the text of farewell phrase is of your choice), and the process terminates.
 

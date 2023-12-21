@@ -1,6 +1,6 @@
 ## Copying a Directory
 
-In the `index.js` file of the `04-copy-directory directory`, implement the `copyDir` function, which copies the contents of the files folder to the `files-copy` folder.
+In the `index.js` file of the `04-copy-directory` folder, implement the `copyDir` function, which copies the contents of the files folder to the `files-copy` folder.
 
 ### General Rules
 
