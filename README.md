@@ -22,15 +22,15 @@ Please note that most tasks can be accomplished in multiple ways, and at this st
 
 ## Crosscheck
 
-The process of cross-checking is described in the repository's wiki.  
-After starting the cross-check, follow [this link](https://github.com/rolling-scopes-school/HTML-builder/wiki) and follow the instructions on the page.
+The process for cross-checking is detailed in the repository's wiki.  
+Once the cross-check begins, access the guidelines by following [this link](https://github.com/rolling-scopes-school/HTML-builder/wiki) and adhere to the instructions provided on the page.
 
 ### General Rules
 
-- The use of any third-party modules is prohibited.
+- The use of any third-party modules is strictly prohibited.
 - Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
-- The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
-- It is forbidden to use the `setTimeout()` timer.
+- Utilizing synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [Synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is not allowed.
+- The use of the `setTimeout()` function is forbidden.
 - Task execution and verification should be carried out on the **LTS** version of Node.
 
 ## Table of Contents

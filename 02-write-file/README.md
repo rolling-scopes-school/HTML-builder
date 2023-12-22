@@ -37,14 +37,13 @@ The steps to complete the task are as follows:
 
 ### Tips
 
-To successfully complete this task, you will need knowledge of events and streams acquired earlier, as well as an understanding of the capabilities of the global **process** object. By using its events, you can intercept signals sent to the process, such as pressing `ctrl + c`.
+To successfully complete this task, you will need to apply your knowledge of events and streams that you have acquired previously. Additionally, an understanding of the global **process** object and its capabilities is essential. Utilizing its events allows you to intercept signals sent to the process, such as the `ctrl + c` interrupt command.
 
 Reading anything from a stream using the **Readline module** can be helpful. The standard input stream `stdin`, being a **ReadableStream**, is well-suited for this.
 
 ##### Useful Links
 
-_If you're looking for the information in Russian, please note that translations of documentation into Russian may be outdated and may not contain all the modern features of the modules.
-For up-to-date information, always use the official documentation!_
+_Please note, if you are seeking information in Russian, be aware that translations of the documentation may be outdated. They might not include all the latest features of the modules. For the most current and accurate information, always refer to the official documentation!_
 
 - Process:
   - [Process](https://nodejs.org/api/process.html)
