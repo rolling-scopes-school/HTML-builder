@@ -48,9 +48,12 @@ main .container {
   width: 300px;
   height: 360px;
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
   text-decoration: none;
-  box-shadow: 0 -150px 150px -120px #02160b inset, 0 -100px 100px -80px #02160b inset, 0 -50px 50px -40px #02160b inset;
+  box-shadow:
+    0 -150px 150px -120px #02160b inset,
+    0 -100px 100px -80px #02160b inset,
+    0 -50px 50px -40px #02160b inset;
 }
 
 .item1 {
@@ -133,7 +136,7 @@ main .container {
   width: 540px;
   height: 60px;
   padding: 10px;
-  background-color:transparent;
+  background-color: transparent;
   border: 1px solid #666;
   border-right: 0;
   outline: 0;
@@ -149,23 +152,23 @@ main .container {
   width: 120px;
   height: 60px;
   color: #f7f7f7;
-  background-color: #cd6326;  
+  background-color: #cd6326;
   font-size: 24px;
   border: 1px solid #cd6326;
   border-radius: 0 5px 5px 0;
   border-left: 0;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .mail-button:hover {
-  background-color: #E4902D;
-  border-color: #E4902D;
+  background-color: #e4902d;
+  border-color: #e4902d;
   outline: 0;
 }
 
 .mail-button:active {
-  background-color: #8F5515;
-  border-color: #8F5515;
+  background-color: #8f5515;
+  border-color: #8f5515;
   outline: 0;
 }

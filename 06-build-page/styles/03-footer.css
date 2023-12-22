@@ -5,13 +5,15 @@ footer {
 footer .container {
   background-image: url('assets/img/footer.jpg');
   background-size: cover;
-  box-shadow: -150px 0 150px -100px #181617 inset, 150px 0 150px -100px #181617 inset;
+  box-shadow:
+    -150px 0 150px -100px #181617 inset,
+    150px 0 150px -100px #181617 inset;
 }
 
 .footer-inner-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
   min-height: 360px;
 }
 

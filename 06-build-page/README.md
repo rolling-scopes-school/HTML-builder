@@ -1,45 +1,46 @@
-## Сборка HTML страницы из компонентов и стилей
+## Building an HTML Page from Components and Styles
 
-В файле **index.js** директории **06-build-page** напишите скрипт который:
-1. Создаёт папку  **project-dist**.
-2. Заменяет шаблонные теги в файле **template.html** с названиями файлов из папки components (пример:```{{section}}```) на содержимое одноимённых компонентов и  сохраняет результат в **project-dist/index.html**.
-3. Собирает в единый файл стили из папки **styles** и помещает их в файл **project-dist/style.css**.
-4. Копирует папку **assets** в **project-dist/assets**
+In the `index.js` file within the `06-build-page` directory, develop a script that:
 
+1. Creates a folder named `project-dist`.
+2. Replaces template tags in the `template.html` file with filenames from the `components` folder (e.g., `{{section}}`) and saves the result in `project-dist/index.html`.
+3. Compiles styles from the `styles` folder into a single file and places it in `project-dist/style.css`.
+4. Copies the `assets` folder into `project-dist/assets`.
 
-### Общие правила:
+### General Rules
 
-- Запрещается использование любых сторонних модулей
-- Каждое из заданий должно запускаться командой node <имя папки задания> выполненной в корневой директории
-- Запрещается использование синхронных функций модуля fs такие, как ```fs.statSync(path[, options])```, 
-```fs.readFileSync(path[, options])``` и другие находящиеся в разделе [synchronous API](https://nodejs.org/api/fs.html#fs_synchronous_api)
+- The use of any third-party modules is prohibited.
+- Each task must be executed <u>in the root directory</u> using the command `node <task folder name>`.
+- The use of synchronous functions from the **fs module**, such as `fs.statSync(path[, options])`, `fs.readFileSync(path[, options])`, and others found in the [synchronous API section](https://nodejs.org/api/fs.html#fs_synchronous_api), is prohibited.
 
-### Требования
-- [ ] После завершения работы скрипта должна быть создана папка **project-dist**
-- [ ] В папке **project-dist** должны находиться файлы **index.html** и **style.css** 
-- [ ] В папке **project-dist** должна находиться папка **assets** являющаяся точной копией папки **assets** находящейся в **06-build-page**
-- [ ] Запрещается использование fsPromises.cp()
-- [ ] Файл **index.html** должен содержать разметку являющуюся результатом замены шаблонных тегов в файле **template.html**
-- [ ] Файл **style.css** должен содержать стили собранные из файлов папки **styles** 
-- [ ] При добавлении компонента в папку и соответствующего тега в исходный файл **template.html** повторное выполнение скрипта приведёт файл **index.html** в папке **project-dist** в актуальное состояние перезаписав его. Файл **style.css** и папка **assets** так же должны поддерживать актуальное состояние 
-- [ ] При записи двух и более шаблонных тегов подряд в файле **template.html**, разделенных между собой только пробелами **без переноса строки**, не должно возникать ошибок выполнения кода. Например, `{{about}} {{articles}}` должно расцениваться как 2 отдельных компонента
-- [ ] Исходный файл **template.html** не должен быть изменён в ходе выполнения скрипта
-- [ ] Запись в шаблон содержимого любых файлов кроме файлов с расширением **.html** является ошибкой  
-### Цели задания
+### Requirements
 
-- Создание небольшой утилиты позволяющей собрать статичную HTML страницу. 
-- Закрепление полученных знаний
+- [ ] After the script execution terminates, the `project-dist` folder should be created.
+- [ ] The `project-dist` folder should contain files `index.html` and `style.css`.
+- [ ] The `project-dist` folder should contain an `assets` folder that is an exact copy of the `assets` folder in `06-build-page`.
+- [ ] The use of `fsPromises.cp()` is prohibited.
+- [ ] The `index.html` file should contain markup resulting from the replacement of template tags in the `template.html` file.
+- [ ] The `style.css` file should contain styles compiled from files in the `styles` folder.
+- [ ] When adding a component to the folder and the corresponding tag to the original `template.html` file, rerunning the script should update the `index.html` file in the `project-dist` folder. The `style.css` file and `assets` folder should also maintain an up-to-date state.
+- [ ] When writing two or more template tags consecutively in the `template.html` file, separated only by spaces without line breaks, there should be no code execution errors. For example, `{{about}} {{articles}}` should be interpreted as two <u>separate</u> components.
+- [ ] The original `template.html` file should not be modified during script execution.
+- [ ] Writing content to the template from any files except those with the `.html` extension is an error.
 
-### Описание
+### Objectives
 
-Один из возможных порядков выполнения задачи:
+- Create a small utility to assemble a static HTML page.
+- Reinforce acquired knowledge.
 
-1. Импорт всех требуемых модулей
-2. Прочтение и сохранение в переменной файла-шаблона
-3. Нахождение всех имён тегов в файле шаблона
-4. Замена шаблонных тегов содержимым файлов-компонентов
-5. Запись изменённого шаблона в файл **index.html** в папке **project-dist**
-6. Использовать скрипт написанный в задании **05-merge-styles** для создания файла **style.css**
-7. Использовать скрипт из задания **04-copy-directory** для переноса папки **assets** в папку project-dist 
+### Description
 
-Обратите внимание, что данный алгоритм вы можете оптимизировать и изменять по своему усмотрению. 
+Possible steps to complete the task:
+
+1. Import all required modules.
+2. Read and save the template file in a variable.
+3. Find all tag names in the template file.
+4. Replace template tags with the content of component files.
+5. Write the modified template to the `index.html` file in the `project-dist` folder.
+6. Use the script written in task **05-merge-styles** to create the `style.css` file.
+7. Use the script from task **04-copy-directory** to move the `assets` folder into the `project-dist` folder.
+
+Note that you can optimize and modify this algorithm according to your preferences.

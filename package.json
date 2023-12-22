@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "html-builder task for RSSchool",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "ci:format": "prettier --check ."
   },
   "author": "evgeniimal",
   "license": "ISC",
@@ -13,6 +15,9 @@
   "homepage": "https://github.com/EvgeniiMal/html-builder-black#readme",
   "devDependencies": {
     "@types/node": "^18.16.6",
-    "eslint": "^8.40.0"
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
   }
 }

@@ -1,29 +1,33 @@
-## Сборка css бандла
+## Building the CSS Bundle
 
-В файле **index.js** директории **05-merge-styles** напишите скрипт собирающий в единый файл содержимое папки **styles**. Выходной файл должен носить имя **bundle.css** и находиться внутри папки **project-dist**.
+In the `index.js` file of the `05-merge-styles` directory, develop a script that compiles the contents of the `styles` folder into a single file. The output file should be named `bundle.css` and located inside the `project-dist` folder.
 
-### Требования
+### Requirements
 
-- [ ] После завершения работы скрипта в папке **project-dist** должен находиться файл **bundle.css** содержащий стили из всех файлов папки **styles**.
-- [ ] При добавлении/удалении/изменении файлов стилей в папке **styles** и повторном запуске скрипта файл **bundle.css** перезаписывается и содержит актуальные стили.
-- [ ] Любые файлы имеющие расширение отличное от **css** или директории игнорируются.
-- [ ] Стили находящиеся в файле **bundle.css** созданном в процессе сборки не должны быть повреждены. 
+- [ ] After the script execution terminates, a `bundle.css` file containing styles from all files in the `styles` folder should be located in the `project-dist` folder.
+- [ ] When styles files are added/removed/modified in the `styles` folder and the script is rerun, the `bundle.css` file is overwritten and contains the up-to-date styles.
+- [ ] Any files with extensions other than `css` or directories are ignored.
+- [ ] Styles in the `bundle.css` file created during the compilation process should not be corrupted.
 
-### Цели задания
+### Objectives
 
-- Научиться объединять информацию из нескольких файлов с одним расширением.
+- Learn to combine information from multiple files with the same extension.
 
-### Содержимое папки:
-Обратите внимание, что внутри **05-merge-styles** находится папка **test-files** предназначенная для проверки задания и в ходе решения поставленной задачи взаимодействие с ней не предполагается.
-### Описание  
+### Folder Contents
 
-Возможный порядок действий для выполнения задачи:
+Note that inside `05-merge-styles`, there is a `test-files` folder designed for checking the task, and no interaction with it is expected during the task solution.
 
-1. Импорт всех требуемых модулей
-3. Чтение содержимого папки **styles**
-4. Проверка является ли объект файлом и имеет ли файл нужное расширение
-4. Чтение файла стилей
-5. Запись прочитанных данных в массив
-6. Запись массива стилей в файл **bundle.css**
+### Description
 
-Для наглядного эффекта работы вашего скрипта рекомендую установить в vscode расширение [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) и запустить с его помощью файл **index.html** находящийся в директории **project-dist**.
+Possible steps to complete the task:
+
+1. Import all required modules.
+2. Read the contents of the `styles` folder.
+3. Check if an object in the folder is a file and has the correct file extension.
+4. Read the style file.
+5. Write the read data to an array.
+6. Write the array of styles to the `bundle.css` file.
+
+### Tips
+
+For a visual demonstration of your script's execution, I recommend installing the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) in vscode and launching the `index.html` file located in the `project-dist` directory using it.
