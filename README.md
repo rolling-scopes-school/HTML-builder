@@ -13,12 +13,16 @@ Please note that most tasks can be accomplished in multiple ways, and at this st
 
 ## Execution process
 
-- Fork this repository
-- Send the repository link to `Cross-Check: Submit` in RS App
-- Clone the repository
+- Click on the green button `Use this template`
+- In the dropdown, choose the option `Create a new repository`
+- Enter the repository name (preferably name it **HTML-builder**)
+- Leave its visibility as **public**
+- Click the `Create repository` button
+- Send the link to the created repository to `Cross-Check: Submit` in RS App
+- Clone the created repository
 - Run the command `npm install` to install eslint, prettier and node.js typings that will assist you in completing the tasks
 - Complete the tasks. The specifications for each task are in the `README.md` file inside the task folder
-- Push the solution to your forked repository
+- Push the solution to your repository
 
 ## Crosscheck
 
