@@ -27,7 +27,7 @@
 - **Screenshots/Links:**
   <!-- 📸 Include any relevant screenshots or links to documentation or discussions -->
 - [ ] Related Issues:
-  <!-- 🔗 Mention any related issues or pull requests if applicable -->
+<!-- 🔗 Mention any related issues or pull requests if applicable -->
 
 #### Checklist
 

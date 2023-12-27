@@ -44,7 +44,7 @@ const fs = require('fs');
 
 For reading the file, you will use [streams](https://nodejs.org/api/stream.html#readable-streams), which are an important and useful part of the platform. Thanks to them, you can process large amounts of data chunk by chunk on the fly, while consuming a minimal amount of resources, instead of loading them into memory entirely. In your future work, you will encounter them repeatedly.
 
-It's crucial to familiarize yourself with another fundamental concept in Node.js: **Events**. Node.js extensively uses events, and most objects are instances of the `EventEmitter` class. Understanding streams' operation is greatly enhanced by first getting to know events, as every stream is a descendant of `EventEmitter`. 
+It's crucial to familiarize yourself with another fundamental concept in Node.js: **Events**. Node.js extensively uses events, and most objects are instances of the `EventEmitter` class. Understanding streams' operation is greatly enhanced by first getting to know events, as every stream is a descendant of `EventEmitter`.
 Materials on these topics are also attached in the [Useful Links section](#useful-links).
 
 When creating a **ReadStream**, pay attention to the fact that the command to run your code should be executed <u>in the root directory of the repository</u>. Therefore, it is important to correctly pass the file path for reading.  
