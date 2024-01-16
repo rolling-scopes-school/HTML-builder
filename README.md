@@ -39,9 +39,9 @@ Once the cross-check begins, access the guidelines by following [this link](http
 
 ## Table of Contents
 
-[01 Reading a File with Console Output](./01-read-file)  
-[02 Writing Console Input to File](./02-write-file)  
-[03 Displaying Information about Files Stored in a Folder](./03-files-in-folder)  
-[04 Copying a Directory](./04-copy-directory)  
-[05 Building the CSS Bundle](./05-merge-styles)  
-[06 Building an HTML Page from Components and Styles](./06-build-page)
+[01 Reading a File with Console Output](https://github.com/rolling-scopes-school/HTML-builder/blob/main/01-read-file)  
+[02 Writing Console Input to File](https://github.com/rolling-scopes-school/HTML-builder/blob/main/02-write-file)  
+[03 Displaying Information about Files Stored in a Folder](https://github.com/rolling-scopes-school/HTML-builder/blob/main/03-files-in-folder)  
+[04 Copying a Directory](https://github.com/rolling-scopes-school/HTML-builder/blob/main/04-copy-directory)  
+[05 Building the CSS Bundle](https://github.com/rolling-scopes-school/HTML-builder/blob/main/05-merge-styles)  
+[06 Building an HTML Page from Components and Styles](https://github.com/rolling-scopes-school/HTML-builder/blob/main/06-build-page)
